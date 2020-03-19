@@ -6,9 +6,14 @@
 .card {
     height: 100%;
     margin-top: 1%;
-    margin-bottom: auto;
-    width: 400px;
-    background-color: rgba(0, 0, 0, 0.4) !important;
+    margin-bottom: 5%;
+    width: 600px;
+    color: white;
+    background-color: rgb(0, 30, 65) !important;
+}
+
+#comp {
+    width: 295px;
 }
 
 .input-group-prepend span {
@@ -16,4 +21,20 @@
     background-color: cornflowerblue;
     color: black;
     border: 0 !important;
+}
+
+.botones {
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+}
+
+.botones:hover {
+    color: #1883ba;
+    background-color: #ffffff;
 }
